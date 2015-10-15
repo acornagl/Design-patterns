@@ -9,9 +9,9 @@ using namespace std;
  */
 class AbstractAirplanes {
 public:
+    // Pure virtual method to make AbstractAirplanes class an abstract class
     virtual void setProperty(string property) = 0;
     
-    // Pure virtual method to make AbstractAirplanes class an abstract class
     virtual string toString() = 0;
 };
 
